@@ -15,7 +15,7 @@ os.system("playwright install chromium")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "ai.tools.vts@gmail.com"
-SENDER_PASSWORD = "yeyr xyqg wsea vjku"
+SENDER_PASSWORD = st.secrets["email_password"]
 SENT_ITEMS_FILE = "sent_tenders.txt"
 LAST_RUN_FILE = "last_run.txt"
 
